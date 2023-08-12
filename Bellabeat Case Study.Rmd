@@ -7,10 +7,10 @@ output: html_document
 
 #![](Images/Intro.png)
 
-# *PHASE 2*
+# PHASE 2
 #![](Images/Prepare.jpg)
 
-***Reading Datasets***
+#Reading Datasets
 ```{r}
 daily_activity <- read.csv("Datasets/dailyActivity_merged.csv")
 sleep_pattern <- read.csv("Datasets/sleepDay_merged.csv")
