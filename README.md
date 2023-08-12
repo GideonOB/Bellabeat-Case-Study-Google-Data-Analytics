@@ -70,7 +70,7 @@ weight= read.csv("Datasets/weightLogInfo_merged.csv")
 
 ---
 
-## *PHASE 3*
+# *PHASE 3*
 ![](C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/process.jpg)
 
 ```{r }
@@ -193,7 +193,7 @@ Data cleaning and manipulation is now complete for all 3 datasets. We will go ah
 
 ---
 
-## *PHASE 4
+# *PHASE 4*
 ![](Images/Analyze.jpg)
 
 
@@ -399,12 +399,10 @@ The following is the **[CDC's](https://www.cdc.gov/obesity/basics/adult-defining
 
 ```
 
-
-
-
 ---
 
 # *PHASE 6: ACT*
+
 * What are some trends in smart device usage?
   + ***Sedentary activity covers the largest share of users daily activity.***
   + ***Users are more active from 12pm to 2pm, as well as 5pm to 7pm, peaking at 6pm.***
