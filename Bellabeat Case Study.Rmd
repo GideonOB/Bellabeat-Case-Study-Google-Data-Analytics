@@ -5,7 +5,7 @@ date: "2023-08-12"
 output: github_document
 ---
 
-![](C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/Intro.png)
+![](Images/Intro.png)
 
 This is my final project for the Google Data Analytics Professional Certificate course. Throughout this project, I will be following the data analysis cycle, which are Ask, Prepare, Process, Analyze, Share and Act.
 
@@ -45,7 +45,7 @@ devices. She wants me to select one Bellabeat product to apply these insights to
 ---
 
 # *PHASE 2*
-![](C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/Prepare.jpg)
+![](Images/Prepare.jpg)
 
 Sršen recommends using the FitBit Fitness Tracker Data found on  **[Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)**. 30 eligible Fitbit users consented to submit their personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It also includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
 
@@ -58,21 +58,21 @@ Sršen recommends using the FitBit Fitness Tracker Data found on  **[Kaggle](htt
 
 ***Reading Datasets***
 ```{r}
-daily_activity <- read.csv("C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/dailyActivity_merged.csv")
-sleep_pattern <- read.csv("C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/sleepDay_merged.csv")
-hourly_calories <- read.csv("C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/hourlyCalories_merged.csv")
-hourly_intensities <- read.csv("C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/hourlyIntensities_merged.csv")
-hourly_steps <- read.csv("C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/hourlySteps_merged.csv")
+daily_activity <- read.csv("Datasets/dailyActivity_merged.csv")
+sleep_pattern <- read.csv("Datasets/sleepDay_merged.csv")
+hourly_calories <- read.csv("Datasets/hourlyCalories_merged.csv")
+hourly_intensities <- read.csv("Datasets/hourlyIntensities_merged.csv")
+hourly_steps <- read.csv("Datasets/hourlySteps_merged.csv")
 hourly_data <- cbind(hourly_intensities,Calories=hourly_calories$Calories)
 hourly_data <- cbind(hourly_data,TotalSteps=hourly_steps$StepTotal)
-weight= read.csv("C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/weightLogInfo_merged.csv")
+weight= read.csv("Datasets/weightLogInfo_merged.csv")
 ```
 
 
 ---
 
 ## *PHASE 3*
-![](C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/process.jpg)
+![](Images/process.jpg)
 
 ```{r }
 #install.packages(c("dbplyr", "tidyverse", "janitor","plotly", "cowplot")) 
@@ -195,7 +195,7 @@ Data cleaning and manipulation is now complete for all 3 datasets. We will go ah
 ---
 
 ## *PHASE 4
-![](C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/Analyze.jpg)
+![](Images/Analyze.jpg)
 
 
 Firstly, we will find the percentage of minutes spent on each activity type
@@ -413,7 +413,7 @@ The following is the **[CDC's](https://www.cdc.gov/obesity/basics/adult-defining
 * How could these trends apply to Bellabeat customers?
 * How could these trends help influence Bellabeat marketing strategy?
 
-![](C:/Users/Owner/Documents/Google Data Analytics/Track Two Bellabeats/Action.png)
+![](Images/Action.png)
 
 ***Recommendations:***
 
