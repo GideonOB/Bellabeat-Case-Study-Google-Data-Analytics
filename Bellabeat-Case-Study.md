@@ -5,7 +5,7 @@
 
 ---
 
-![](Images/Intro.png)
+# ![](Images/Intro.png)
 
 This is my final project for the Google Data Analytics Professional
 Certificate course. Throughout this project, I will be following the
