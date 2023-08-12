@@ -2,7 +2,7 @@
 title: "BellabeatCase Study"
 author: "Gideon Osei Bonsu"
 date: "2023-08-12"
-output: github_document
+output: html_document
 ---
 
 ![](Images/Intro.png)
@@ -229,12 +229,13 @@ We will now analyze the relationship between distance covered, total steps taken
 ```{r message=FALSE, error=FALSE, warning= FALSE}
 min_date = min(daily_activity$activity_date)
 max_date = max(daily_activity$activity_date)
-  ggplot(data=daily_activity)+
+ c = ggplot(data=daily_activity)+
   geom_point(mapping=aes(x=total_distance,y=calories,color=total_steps))+
   geom_smooth(mapping=aes(x=total_distance,y=calories))+
   labs(x="Distance Covered (in km)", y="Calories Burned", title="Correlation Between Distance Covered, Total Steps and Calories", color="Totals Steps",
        caption=paste0("33 Users Data from: ", min_date, " to ", max_date))+
   scale_color_continuous(type="viridis")
+ ggplotly(c)
 ```
 
 
@@ -253,11 +254,12 @@ avg_steps_per_day <- daily_activity %>%
   group_by(day)%>%
   summarize(avg_steps=mean(total_steps))
 
-ggplot(data=avg_steps_per_day)+
+c= ggplot(data=avg_steps_per_day)+
   geom_col(mapping=aes(x=day, y=avg_steps), fill = "lightblue")+
   labs(title="Average Steps Taken Across The Week", x="Day Of The Week", y = "Average Steps By All Users")+
   theme_dark()+
   theme(plot.title = element_text(hjust = 0.5))
+ggplotly(c)
 ```
 
 ***Key Notes: ***
@@ -356,11 +358,12 @@ weight=clean_names(weight)
 total_num_records = count(weight)
 total_num_users = length(unique(weight$id))
 
-  ggplot(data=weight) +
+c=  ggplot(data=weight) +
   geom_bar(mapping=aes(x = weight$is_manual_report),fill="brown")+
   labs(x = "The Weight Was Manually Recorded", y = "Number of Records", title = "Manually Recorded Vs. Auto Recorded Weight Data", caption = paste0("Weight Data Includes ",total_num_records," Total Records From ",total_num_users," Users"))+
   theme_grey()+
    theme(plot.title = element_text(hjust = 0.5))
+ggplotly(c)
 
 ```
 
@@ -383,7 +386,7 @@ percentages=bmi_categories%>%
 
 c <- plot_ly(percentages, labels = percentages$weight_category, values = percentages$category_percentage, type = 'pie',textposition = 'inside', marker=list(colors=c("#18F300","#ff0000","#055C1A"),line = list(color = 'black', width = 1)), textinfo="percent",hovertext= percentages$category_totals, textfont=list(size=20, color="white"), pull=0.015) %>%
   layout(title = 'Weight Categories Per BMI Reading')
-c
+ggplotly(c)
 ```
 
 
