@@ -90,7 +90,7 @@ weight= read.csv("Datasets/weightLogInfo_merged.csv")
 
 ------------------------------------------------------------------------
 
-## *PHASE 3*
+# *PHASE 3*
 
 ![](Images/process.jpg)
 
@@ -342,7 +342,7 @@ will go ahead and analyze our data.
 
 ------------------------------------------------------------------------
 
-## \*PHASE 4
+# *PHASE 4*
 
 ![](Images/Analyze.jpg)
 
@@ -650,7 +650,7 @@ weight classification per BMI:
 
 ![](Images/Action.png)
 
-***Recommendations:***
+## Recommendations:
 
 1.  For more comprehensive analysis, Bellabeat should gather a larger
     sample of smart fitness device users’ data, which should also be
