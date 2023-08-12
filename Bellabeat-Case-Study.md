@@ -1,7 +1,7 @@
-BellabeatCase Study
+# Bellabeat Fitness Data Analysis 
 ================
-Gideon Osei Bonsu
-2023-08-12
+#### Gideon Osei Bonsu
+#### 2023-08-12
 
 ![](Images/Intro.png)
 
