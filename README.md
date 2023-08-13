@@ -431,7 +431,7 @@ ggplotly(c)
 
 ![](Bellabeat-Case-Study_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
 
-***Key Notes: ***
+***Key Notes:***
 
 - According to the **[Center for Disease Control and
   Prevention](https://www.cdc.gov/diabetes/prevention/pdf/postcurriculum_session8.pdf)**,
