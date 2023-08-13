@@ -407,10 +407,10 @@ max_date = max(daily_activity$activity_date)
   distance covered and calories burned**, as well as between **total steps
   taken and calories burned**.
 - There are not too many outliers; only two outright outliers.
-  - One is at 15 km Distance with 4900 calories burned. This could be
+  - One is at 15 km Distance with 4900 calories burned. This relatively high calorie burn could be
     due to user being very active for most parts of the distance
     covered.
-  - The other is at 28.03 km with 2690 calories burned. This could be
+  - The other is at 28.03 km with 2690 calories burned. This relatively low calorie burn could be
     due to user being only lightly active across the distance.
 
 We will now go ahead and analyze the daily step totals.
