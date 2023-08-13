@@ -404,8 +404,8 @@ max_date = max(daily_activity$activity_date)
 ***Findings:***
 
 - As expected, there is a **positive correlation** between **total
-  distance covered and calories**, as well as between **total steps
-  taken and calories**.
+  distance covered and calories burned**, as well as between **total steps
+  taken and calories burned**.
 - There are not too many outliers; only two outright outliers.
   - One is at 15 km Distance with 4900 calories burned. This could be
     due to user being very active for most parts of the distance
