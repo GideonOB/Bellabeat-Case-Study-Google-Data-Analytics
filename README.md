@@ -637,9 +637,9 @@ weight classification per BMI:
 - If your BMI is 25.0 to \<30, it falls within the overweight range.
 - If your BMI is 30.0 or higher, it falls within the obesity range.
 
-***Key Note: ***
+***Key Note:***
 
-- One 3 out of the 8 users are in the “healthy” weight range.
+- Only 3 out of the 8 users are in the “healthy” weight range.
 
 \`\`\`
 
