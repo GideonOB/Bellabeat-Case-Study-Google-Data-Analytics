@@ -381,7 +381,7 @@ plot_ly(plot_data, labels = plot_data$intensityLabel, values = plot_data$intensi
 - Too much time - as much as **81.3%** of users’ logged time - is spent
   on sedentary activity.
 - Despite FitBit device being a fitness tracker, it is uncertain that it
-  is actually encouraging users to be more active as users fairly and
+  is actually encouraging users to be more active as users' fairly active and
   very active minutes make up only **2.85%** of the time.
 
 We will now analyze the relationship between distance covered, total
