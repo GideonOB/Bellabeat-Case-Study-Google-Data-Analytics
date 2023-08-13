@@ -97,7 +97,14 @@ weight= read.csv("Datasets/weightLogInfo_merged.csv")
 ![](Images/process.jpg)
 
 ``` r
-#install.packages(c("dbplyr", "tidyverse", "janitor","plotly", "cowplot")) 
+install.packages(c("dbplyr", "tidyverse", "janitor","plotly", "cowplot"))
+library(tidyverse)
+library(dplyr)
+library(janitor)
+library(lubridate)
+library(cowplot)
+library(ggplot2)
+library(plotly) 
 ```
 
 After loading our data, needed packages and libraries, we now want to
