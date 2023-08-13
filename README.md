@@ -652,8 +652,10 @@ weight classification per BMI:
     activity.***
   - ***Users are more active from 12pm to 2pm, as well as 5pm to 7pm,
     peaking at 6pm.***
-  - ***The more steps steps users take and the more distance they cover,
+  - ***The more steps users take and the more distance they cover,
     the more calories they burn***
+  - ***Users record weight data the least. Specifically, only 8 out
+    of the 33 sampled users have recorded their weight data.***
 - How could these trends apply to Bellabeat customers?
 - How could these trends help influence Bellabeat marketing strategy?
 
