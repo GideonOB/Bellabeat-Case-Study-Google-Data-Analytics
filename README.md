@@ -9,8 +9,8 @@
 
 This is my final project for the Google Data Analytics Professional
 Certificate course. Throughout this project, I will be following the
-data analysis cycle, which are Ask, Prepare, Process, Analyze, Share and
-Act.
+data analysis cycle, which consists of the Ask, Prepare, Process, Analyze, Share and
+Act phases.
 
 ### *SCENARIO*
 
