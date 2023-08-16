@@ -175,6 +175,9 @@ str(daily_activity)
 Having made these observations, we will now go ahead and clean the data.
 
 ***Change ActivityDate column to Date format***
+```{r echo=FALSE}
+daily_activity$ActivityDate <- mdy(daily_activity$ActivityDate)
+```
 
 We will now ***clean column names*** easily with the clean_names
 function from the janitor package
