@@ -297,7 +297,7 @@ Data Cleaning and Manipulation on the daily_activity dataset is done. We
 will now turn our attention to the sleep_pattern and hourly_data
 datasets.
 
-Convert the SleepDay column to Date format, Clean column names, check
+Convert the SleepDay column to Date data type, Clean column names, check
 for null values, as well as number of unique users to log sleep data and
 hourly data.
 **There are null values in the sleep_pattern dataset: FALSE**
