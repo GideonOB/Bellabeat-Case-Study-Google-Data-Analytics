@@ -99,7 +99,7 @@ weight <- read.csv("Datasets/weightLogInfo_merged.csv")
 
 ![](Images/process.jpg)
 
-***Install Packages and load libraries***
+***Install Packages and Load Libraries***
 ``` r
 install.packages(c("dbplyr", "tidyverse", "janitor","plotly", "cowplot"))
 library(tidyverse)
