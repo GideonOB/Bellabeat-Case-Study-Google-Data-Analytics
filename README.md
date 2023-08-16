@@ -41,9 +41,12 @@ delivering these insights.
 Sršen asks me to analyze smart device usage data in order to gain
 insight into how consumers use non-Bellabeat smart devices. She wants me
 to select one Bellabeat product to apply these insights to in my
-presentation. The guiding questions are: 1. What are some trends in
-smart device usage? 2. How could these trends apply to Bellabeat
-customers? 3. How could these trends help influence Bellabeat marketing
+presentation. 
+The guiding questions are: 
+1. What are some trends in smart device usage?
+2. How could these trends apply to Bellabeat
+customers?
+3. How could these trends help influence Bellabeat marketing
 strategy?
 
 ### *EXPECTATIONS*
