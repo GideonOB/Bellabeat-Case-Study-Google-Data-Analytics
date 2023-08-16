@@ -90,7 +90,7 @@ hourly_intensities <- read.csv("Datasets/hourlyIntensities_merged.csv")
 hourly_steps <- read.csv("Datasets/hourlySteps_merged.csv")
 hourly_data <- cbind(hourly_intensities,Calories=hourly_calories$Calories)
 hourly_data <- cbind(hourly_data,TotalSteps=hourly_steps$StepTotal)
-weight= read.csv("Datasets/weightLogInfo_merged.csv")
+weight <- read.csv("Datasets/weightLogInfo_merged.csv")
 ```
 
 ------------------------------------------------------------------------
