@@ -161,7 +161,7 @@ str(daily_activity)
     ##  $ SedentaryMinutes        : int  728 776 1218 726 773 539 1149 775 818 838 ...
     ##  $ Calories                : int  1985 1797 1776 1745 1863 1728 1921 2035 1786 1775 ...
 
-***Key Observations Thus Far: ***
+***Key Observations Thus Far:***
 
 - The daily_activity dataset has 15 columns and 940 rows.
 - There are no null values in any of the columns.
