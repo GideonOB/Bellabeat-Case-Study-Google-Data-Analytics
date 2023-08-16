@@ -300,12 +300,12 @@ datasets.
 Convert the SleepDay column to Date format, Clean column names, check
 for null values, as well as number of unique users to log sleep data and
 hourly data.
-
+**There are null values in the sleep_pattern dataset: FALSE**
 ``` r
 sleep_pattern$SleepDay <- mdy(sleep_pattern$SleepDay)
 sleep_pattern = clean_names(sleep_pattern)
 hourly_data = clean_names(hourly_data)
-print(paste0("There are null values in the sleep_pattern dataset: ", any(is.na(sleep_pattern))))
+
 
 print(paste0("Unique User Id's in Sleep Dataset: ", length(unique(sleep_pattern$id))))
 ```
