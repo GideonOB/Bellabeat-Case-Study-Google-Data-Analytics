@@ -311,11 +311,7 @@ print(paste0("Unique User Id's in Hourly Dataset: ", length(unique(hourly_data$i
 
     ## [1] "Unique User Id's in Hourly Dataset: 33"
 
-We find that the hourly dataset captures the data of all 33 users,
-however, only 24 users logged their sleep data. This means 9 users did
-not log their sleep data.
 
-We will now see what the hourly data looks like
 
 ``` r
 head(hourly_data)
